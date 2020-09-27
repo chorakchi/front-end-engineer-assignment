@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import { screens, colors } from "./../../constants/constants";
 
 export const BackgroundStyled = styled.div<{source: string}>`
   position: absolute;
@@ -6,6 +7,7 @@ export const BackgroundStyled = styled.div<{source: string}>`
   right: 0;
   bottom: 0;
   left: 0;
+  overflow: hidden;
   background: url(${(props) => props.source});
   background-repeat: no-repeat;
   background-origin: content-box;
@@ -13,14 +15,19 @@ export const BackgroundStyled = styled.div<{source: string}>`
   background-position: center;
   background-size: cover;
   display: flex;
+    @media (max-width: ${screens.sm}) {
+background: ${colors.yellow};
+  }
 `;
 
 export const BlockStyled = styled.div`
   max-width: 950px;
   -webkit-backdrop-filter: blur(30px);
   backdrop-filter: blur(30px);
-  color: #000000;
   margin: auto;
+      @media (max-width: ${screens.sm}) {
+    max-width: 100%;
+  }
 `;
 
 export const FooterStyled = styled.div`
@@ -34,10 +41,26 @@ export const FooterStyled = styled.div`
   font-size: 30px;
   line-height: 138px;
   padding-left: 48px;
+  @media (max-width: ${screens.sm}) {
+    font-size: 20px;
+  }
 `;
 
 export const LogoStyled = styled.img`
   position: absolute;
   right: 50px;
   top: -50px;
+  @media (max-width: ${screens.sm}) {
+    top: unset;
+  right: -30px;
+  bottom: -50px
+  }
+`;
+export const ButtonsStyled = styled.div`
+display: flex;
+    @media (max-width: ${screens.sm}) {
+    flex-direction: column;
+    padding: 20px;
+  }
+
 `;

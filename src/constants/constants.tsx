@@ -127,3 +127,17 @@ export const tickets : TicketsType = {
     },
   ],
 };
+
+export const  screens: {[key: string]: string} = {
+  sm: "576px",
+  md: "768px",
+  lg: "1024px",
+  xl: "1440px",
+  xxl: "1920px",
+};
+
+export const colors = {
+  yellow: '#ffeb00',
+  yellowLowOpacity: '#ffeb0099',
+  black: '#000000'
+}

@@ -3,6 +3,7 @@ import { Step, Controls } from "react-decision-tree-flow";
 import { content, tickets } from "./../../constants/constants";
 import { Button, Typography, Ticket } from "./../../shared";
 import { TreeType } from "./../../model/types";
+import {ButtonsStyled } from './styled'
 
 type WrappStepProps = {
   data: TreeType
@@ -24,8 +25,7 @@ export const WrappStep = ({ ...props }) => {
         <br />
         <Controls>
           {({ destinations: { ...arg }, back }) => (
-            <div>
-              <div style={{ display: "flex" }}>
+              <ButtonsStyled >
                 {props.data[name].map((item : string) => (
                   <Button
                     key={item}
@@ -38,8 +38,7 @@ export const WrappStep = ({ ...props }) => {
                 ) : (
                   ""
                 )}
-              </div>
-            </div>
+              </ButtonsStyled>
           )}
         </Controls>
       </div>

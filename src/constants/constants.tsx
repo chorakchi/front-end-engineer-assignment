@@ -43,18 +43,18 @@ export const content : ContentType = {
   startContent: "How long will you stay in Berlin?",
   stayForOneDayContent: "are you have return?",
   stayForOneWeekContent: "are you have bike in your trip?",
-  stayForOneMonthContent: "are you have trip befor 10 am?",
+  stayForOneMonthContent: "are you start your trip befor 10 am?",
   WithoutReturnContent: "duration of yuor trip in the day?",
   withReturnContent: "duration of yuor any single trip?",
-  shortTripTicketContent: "",
-  singleTicketContent: "",
-  fourShortTripTicketContent: "",
-  fourSingleTicketContent: "",
-  fullDayTicketContent: "",
-  OneWeekTicketWithBikeContent: "",
-  OneWeekTicketWithoutBikeContent: "",
-  OneMonthTicketTenAMContent: "",
-  OneMonthTicketContent: "",
+  shortTripTicketContent: "Your journey is without return \nYou will stay in Berlin for one day \nYour journey is less than 20 minutes",
+  singleTicketContent: "Your journey is with return \nYou will stay in Berlin for one day \nYour journey is less than 2 hours",
+  fourShortTripTicketContent: "Your journey is with return \nYou will stay in Berlin for one day \nYour journey is more than 20 minute",
+  fourSingleTicketContent: "Your journey is with return \nYou will stay in Berlin for one day \nYour journey is more than 2 hours",
+  fullDayTicketContent: "Your journey is with return \nYou will stay in Berlin for one day \nYour journey is more than 2 hours",
+  OneWeekTicketWithBikeContent: "You have a bike in your journey. \nYou will stay in Berlin for one week.",
+  OneWeekTicketWithoutBikeContent: "You don't have a bike in your journey. \nYou will stay in Berlin for one week.",
+  OneMonthTicketTenAMContent: "Your journey will not start before 10 AM. \nYou will stay in Berlin for one month.",
+  OneMonthTicketContent: "Your journey will start before 10 AM. \nYou will stay in Berlin for one month.",
 };
 
 export const tickets : TicketsType = {
@@ -136,7 +136,7 @@ export const  screens: {[key: string]: string} = {
   xxl: "1920px",
 };
 
-export const colors = {
+export const colors: {[key: string]: string} = {
   yellow: '#ffeb00',
   yellowLowOpacity: '#ffeb0099',
   black: '#000000'

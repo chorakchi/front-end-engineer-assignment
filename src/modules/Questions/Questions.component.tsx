@@ -20,7 +20,7 @@ export const Questions = () => {
           <LogoStyled src={bvglogo} />
         </FooterStyled>
         <BlockStyled>
-          {Object.keys(tree).map((item) => (
+          {Object.keys(tree).map((item: string) => (
             <WrappStep key={item} data={{ [item]: tree[item] }} />
           ))}
         </BlockStyled>

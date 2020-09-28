@@ -2,7 +2,7 @@ import React from "react";
 import { TypographyStyled } from "./styled";
 
 type TypographyType = {
-    variety: 'title' |'header',
+    variety: 'title' |'header' |'body',
     children: object | string
 }
 

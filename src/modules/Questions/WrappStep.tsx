@@ -21,7 +21,12 @@ export const WrappStep = ({ ...props }) => {
         ) : (
           ""
         )}
-        <Typography variety="header">{content[name + "Content"]}</Typography>
+        {TicketFlag ? 
+        <Typography variety= "body" >
+        {"Your decision: \n" + content[name + "Content"]}</Typography>:
+        <Typography variety= "header">
+        {content[name + "Content"]}</Typography>
+        }
         <br />
         <Controls>
           {({ destinations: { ...arg }, back }) => (

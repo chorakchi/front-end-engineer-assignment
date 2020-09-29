@@ -25,7 +25,7 @@ export const tree : TreeType  = {
 export const content : ContentType = {
   stayForOneDay: "One day",
   stayForOneWeek: "One week",
-  stayForOneMonth: "More than tow week",
+  stayForOneMonth: "More than two week",
   WithoutReturn: "No",
   withReturn: "Yes",
   shortTripTicket: "less than 20 min",
@@ -43,7 +43,7 @@ export const content : ContentType = {
   startContent: "How long will you stay in Berlin?",
   stayForOneDayContent: "Do you need a return?",
   stayForOneWeekContent: "Do you have a bick on your trip?",
-  stayForOneMonthContent: "Are you starting your journey before 10?",
+  stayForOneMonthContent: "Are you starting your journey before 10 AM?",
   WithoutReturnContent: "Duration of your trip?",
   withReturnContent: "duration of your trip in any single trip?",
   shortTripTicketContent: "Your journey is without return \nYou will stay in Berlin for one day \nYour journey is less than 20 minutes",

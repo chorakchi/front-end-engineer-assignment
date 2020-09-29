@@ -45,7 +45,7 @@ export const content : ContentType = {
   stayForOneWeekContent: "Do you have a bick on your trip?",
   stayForOneMonthContent: "Are you starting your journey before 10 AM?",
   WithoutReturnContent: "Duration of your trip?",
-  withReturnContent: "duration of your trip in any single trip?",
+  withReturnContent: "Duration of each journey?",
   shortTripTicketContent: "Your journey is without return \nYou will stay in Berlin for one day \nYour journey is less than 20 minutes",
   singleTicketContent: "Your journey is without return \nYou will stay in Berlin for one day \nYour journey is less than 2 hours",
   fourShortTripTicketContent: "Your journey is with return \nYou will stay in Berlin for one day \nYour journey is more than 20 minute",

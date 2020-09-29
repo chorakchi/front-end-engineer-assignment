@@ -67,7 +67,7 @@ export const tickets : TicketsType = {
   ],
   singleTicket: [
     {
-      label: "single",
+      label: "Single",
       area: "Berlin AB",
       price: "2.90",
     },
@@ -81,14 +81,14 @@ export const tickets : TicketsType = {
   ],
   fourShortTripTicket: [
     {
-      label: "four Short Trip",
+      label: "Four Short Trip",
       area: "Berlin AB",
       price: "5.60",
     },
   ],
   fourSingleTicket: [
     {
-      label: "four Single Trip",
+      label: "Four Single Trip",
       area: "Berlin AB",
       price: "12.00",
     },

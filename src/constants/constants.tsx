@@ -25,7 +25,7 @@ export const tree : TreeType  = {
 export const content : ContentType = {
   stayForOneDay: "One day",
   stayForOneWeek: "One week",
-  stayForOneMonth: "More than two week",
+  stayForOneMonth: "More than two weeks",
   WithoutReturn: "No",
   withReturn: "Yes",
   shortTripTicket: "less than 20 min",

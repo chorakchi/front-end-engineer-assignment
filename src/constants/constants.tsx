@@ -53,7 +53,7 @@ export const content : ContentType = {
   fullDayTicketContent: "Your journey is with return \nYou will stay in Berlin for one day \nYour journey is more than 2 hours",
   OneWeekTicketWithBikeContent: "You have a bike in your journey. \nYou will stay in Berlin for one week.",
   OneWeekTicketWithoutBikeContent: "You don't have a bike in your journey. \nYou will stay in Berlin for one week.",
-  OneMonthTicketTenAMContent: "Your journey will not start before 10 AM. \nYou will stay in Berlin for one month.",
+  OneMonthTicketTenAMContent: "Your journey will not start before 10 AM. \nYou will stay in Berlin for more than two weeks.",
   OneMonthTicketContent: "Your journey will start before 10 AM. \nYou will stay in Berlin for one month.",
 };
 

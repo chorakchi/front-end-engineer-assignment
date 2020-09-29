@@ -42,7 +42,7 @@ export const content : ContentType = {
   wellcomeContent: "Welcome to Berlin",
   startContent: "How long will you stay in Berlin?",
   stayForOneDayContent: "Do you need a return?",
-  stayForOneWeekContent: "Do you have a bick on your trip?",
+  stayForOneWeekContent: "Do you have a bike on your trip?",
   stayForOneMonthContent: "Are you starting your journey before 10 AM?",
   WithoutReturnContent: "Duration of your trip?",
   withReturnContent: "Duration of each journey?",
